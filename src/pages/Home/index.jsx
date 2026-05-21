@@ -21,6 +21,9 @@ function Home() {
       age: inputAge.current.value,
       email: inputEmail.current.value
     })
+    inputName.current.value = ''
+    inputAge.current.value = ''
+    inputEmail.current.value = ''
     //chama a função para mostrar os usuários acrescentados
     getUsers()
   }
